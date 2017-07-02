@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+TOOLS=../../../build/tools
+
+$TOOLS/caffe train \
+    --solver=solver-resnet50.prototxt\
+    --weights=ResNet-50-model.caffemodel -gpu 0
+echo "Done."
