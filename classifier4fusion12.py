@@ -304,7 +304,7 @@ for IMAGE_FILE1, IMAGE_FILE2, IMAGE_FILE3, IMAGE_FILE4,IMAGE_FILE5, IMAGE_FILE6,
     output_prob9 = np.load('LSTM/test_rgb_fullbody_predict/'+IMAGE_FILE5[-11:-4]+'.npy')
     output_prob10 = np.load('LSTM/test_depth_fullbody_predict/'+IMAGE_FILE1[-11:-4]+'.npy')
     output_prob11 = np.load('LSTM/test_rgb_full_predict/'+IMAGE_FILE5[-11:-4]+'.npy')
-    output_prob12 = np.load('LSTM/test_depth_fullbody_predict/'+IMAGE_FILE1[-11:-4]+'.npy')
+    output_prob12 = np.load('LSTM/test_depth_full_predict/'+IMAGE_FILE1[-11:-4]+'.npy')
 
     output_prob_ava = normalize((output_prob1+output_prob2+output_prob3+output_prob4+0.7*output_prob5+0.7*output_prob6+0.7*output_prob7+0.7*output_prob8),axis=1, norm='l1')+normalize((output_prob9+output_prob10+0.6*output_prob11 + output_prob12),axis=1, norm='l1')
 
