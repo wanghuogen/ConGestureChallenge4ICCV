@@ -7,7 +7,7 @@ with open('DATA/con_list/valid.txt') as input:
 output = open('valid_segmented.list', 'w')
 
 for line in valid_list:
-    video_path = os.path.join(video_root_dir, line[:-1] + '.K.avi')
+    video_path = os.path.join(video_root_dir, line[:-1] + '.M.avi')
     try:
         ret = segment.segment(video_path, L=92, threshold=50, tail_length=8, play=False, plot=False)
     except:
