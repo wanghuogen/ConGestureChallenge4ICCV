@@ -56,7 +56,11 @@ step2. run the code "classifier4fusion12.py" in the folder. Please change caffe_
 step3. run the code "main4submit.m" in the folder. And the file "test_prediction.txt" will be create.
 
 
+If you use our code,please cite our paper:
 
+@InProceedings{Wang_2017_ICCV_Workshops, author = {Wang, Huogen and Wang, Pichao and Song, Zhanjie and Li, Wanqing}, title = {Large-Scale Multimodal Gesture Recognition Using Heterogeneous Networks}, booktitle = {The IEEE International Conference on Computer Vision (ICCV)}, month = {Oct}, year = {2017} }
+
+@InProceedings{Wang_2017_ICCV_Workshops, author = {Wang, Huogen and Wang, Pichao and Song, Zhanjie and Li, Wanqing}, title = {Large-Scale Multimodal Gesture Segmentation and Recognition Based on Convolutional Neural Networks}, booktitle = {The IEEE International Conference on Computer Vision (ICCV)}, month = {Oct}, year = {2017} } 
 
 
 
